@@ -1,0 +1,139 @@
+body{
+    background-color:#63a3c5;
+    color: #050505;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url("assets/Banner.JPG");
+    background-size: 100% 100%; /*stretch the image to 100% of the tag*/
+    color: #F5F5F5;
+    font-size: 120%;
+    margin-top: 50px;
+    min-height: 200px;
+}
+header a:link{text-decoration: none;display: block;color: #F5F5F5;}
+header a:visited{text-decoration: none;display: block;color: #F5F5F5;}
+header a:hover{text-decoration: none;display: block;color: #F5F5F5;}
+h1{
+    line-height: 200%;
+    padding-top: 50px;
+    padding-left: 2em;
+    color:#F5F5F5;
+    text-shadow: 1px 1px 2px;  /*h-shadow v-shadow shadowWeight color*/
+}
+h2{
+    font-size: 200%;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+    padding: .5em;
+    padding-right: 0;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 0;
+    z-index: 9999;
+}
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+nav li{
+    width: s7em;
+    padding: 0 1em 0 1em;
+    display: inline;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+/*event handler styling - interact with tag, something happens*/
+nav a:link{color:#3F2860}
+nav a:visited{color:#497777}
+nav a:hover{color: #A26100;border:3px inset #333333;}
+
+footer{
+    background-color: #074A6E;
+    font-size: .6em;
+    font-style: italic;
+    color:#F5F5F5;
+    padding: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+dt{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*classes*/
+.home{
+    height: 50vh;
+    padding-left: 8em;
+    padding-right: 5em;
+}
+.content{
+    height: 30vh;
+    margin-right: 8em;
+    padding-right: 5em;
+}
+.bootcamp{  /*apply a style to the company name*/
+    color: #40407A;
+    font-style: italic;
+}
+.onethird{
+    float:left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.onethird img{
+    width: 100%;
+    height: auto;
+}
+.onehalf{
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 50%;
+}
+.floatleft{
+    float:left;
+    margin-right: 4em;
+    margin-bottom: 1em;
+}
+
+/*id*/
+/* id section */
+#wrapper{   
+    padding: 2em;
+    margin: auto;
+    width:80%;
+    background-color: #F5F5F5;
+}
+#mobile{
+    display: none;
+}
+#desktop{
+    display: inline;
+}
+#hero{
+    text-align: center;
+}
+#buildinghero{
+    background-image: url("assets/OurBuilding.jpg");
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 1em auto;
+}
+/* global property or global var */
+* {box-sizing: border-box;}
