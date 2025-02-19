@@ -125,6 +125,11 @@ dt{
 #desktop{
     display: inline;
 }
+#flow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 #hero{
     text-align: center;
 }
